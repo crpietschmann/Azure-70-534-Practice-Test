@@ -9,3 +9,4 @@ Even though things are still in the process of being put together for this pract
 [http://crpietschmann.github.io/Azure-70-534-Practice-Test/](http://crpietschmann.github.io/Azure-70-534-Practice-Test/)
 
 FYI, this is not an exhaustive set of test questions, just some I put together to help me study for and pass the exam. These questions are based on documentations material and the exam objectives list; and are not based on the actual exam or gear towards "teaching the exam" in any way.
+
