@@ -1,0 +1,136 @@
+<section class="quiz" data-title="Design Microsoft Azure infrastructure and networking" data-subtitle="Objective 1.1: Describe how Azure uses Global Foundation Services (GFS) datacenters">
+    <section class="question">
+        <section class="text">
+            Virtual Machines (VMs) in Azure can be accessed using which of the following methods?
+        </section>
+        <section class="answer">Physical access</section>
+        <section class="answer" data-correct>Remote Desktop</section>
+        <section class="answer" data-correct>SSH</section>
+		<section class="description">
+        </section>
+    </section>
+    <section class="question">
+        <section class="text">
+             By default, Azure automatically configures new Windows VMs to be accessed via Remote Desktop?
+        </section>
+        <section class="answer" data-correct>True</section>
+        <section class="answer">False</section>
+    </section>
+    <section class="question">
+        <section class="text">
+            By default, Azure automatically configures new Windows VMs to be accessed via PowerShell Remoting?
+        </section>
+        <section class="answer" data-correct>True</section>
+        <section class="answer">False</section>
+    </section>
+    <section class="question">
+        <section class="text">
+            By default, Azure automatically configures new Windows VMs to be accessed via VNC?
+        </section>
+        <section class="answer">True</section>
+        <section class="answer" data-correct>False</section>
+    </section>
+    <section class="question">
+        <section class="text">
+            By default, Azure automtically configures new Linux VMs to be accessed via SSH?
+        </section>
+        <section class="answer" data-correct>True</section>
+        <section class="answer">False</section>
+    </section>
+    <section class="question">
+        <section class="text">
+            What are VIPs used for in Azure?
+        </section>
+        <section class="answer" data-correct>Used to reserve a static IP Address to be assigned to a Virtual Machine or Cloud Service</section>
+        <section class="answer">Defines a VM as a Very Important Process, so it gets the 99.99% SLA guarantee</section>
+    </section>
+    <section class="question">
+        <section class="text">
+            Are VIPs publicly (internet) or privately (internal) facing?
+        </section>
+        <section class="answer" data-correct>Public</section>
+        <section class="answer">Private</section>
+        <section class="description">
+            VIPs are publicly facing Virtual IP Addresses that can be assigned to a Virtual Machine or Cloud Service.
+        </section>
+    </section>
+    <section class="question">
+        <section class="text">
+            What is a DIP?
+        </section>
+        <section class="answer" data-correct>The internal facing Dynamic IP Address assigned to a Virtual Machine or Cloud Service.</section>
+        <section class="answer">The public facing Dynamic IP Address assigned to a Virtual Machine or Clou Service.</section>
+    </section>
+    <section class="question">
+        <section class="text">
+            How many Virtual IPs (VIPs) is a single Azure Subscription allowed to reserve?
+        </section>
+        <section class="answer">10</section>
+        <section class="answer" data-correct>20</section>
+        <section class="answer">50</section>
+        <section class="answer">Unlimited</section>
+        <section class="description">
+            Currently, Azure Subscritions are limited to reserving a maximum of 20 VIPs.<br>
+        </section>
+    </section>
+    <section class="question">
+        <section class="text">
+            What Azure PowerShell cmdlet is used to reserve VIP?
+        </section>
+        <section class="answer">New-AzureVirtualIP</section>
+        <section class="answer" data-correct>New-AzureReservedIP</section>
+        <section class="answer">Reserve-AzureIP</section>
+        <section class="answer">Reserve-AzureVIP</section>
+        <section class="description">
+            
+        </section>
+    </section>
+    <section class="question">
+        <section class="text">
+            How is a DIP (Dynamic IP) assigned to a Virutal Machine?
+        </section>
+        <section class="answer">Manually through PowerShell</section>
+        <section class="answer">Manually within the VM configuration</section>
+        <section class="answer" data-correct>Automatically via DHCP</section>
+        <section class="description">
+            The DIP for a VM is assigned automatically via DHCP.
+        </section>
+    </section>
+    <section class="question">
+        <section class="text">
+            When does a DIP (Dynamic IP) for a Virtual Machine change?
+        </section>
+        <section class="answer">Every 24 hours</section>
+        <section class="answer">Every 2 weeks</section>
+        <section class="answer" data-correct>When the VM is stopped or deallocated</section>
+    </section>
+    <section class="question">
+        <section class="text">
+            Under what circumstances can the VM's of a Cloud Service reference one another by their hostname or fully qualified domain name (FQDN)?
+        </section>
+        <section class="answer">VMs across different networks or Cloud Services</section>
+        <section class="answer" data-correct>VMs on the same network</section>
+        <section class="description">
+            Azure provides hostname / FQDN resolution for VMs within the same Cloud Service. With VMs from different Cloud Services a separate DNS server would need to be setup in order to support this.
+        </section>
+    </section>
+    <section class="question">
+        <section class="text">
+            What DNS Domain Name is automatically given to a Virtual Machine or Cloud Service?
+        </section>
+        <section class="answer">{machine name}.vm.azurevm.net</section>
+        <section class="answer">{machine name}.azurevm.net</section>
+        <section class="answer" data-correct>{machine name}.cloudapp.net</section>
+        <section class="answer">{machine name}.vm.cloudapp.net</section>
+    </section>
+    <section class="question">
+        <section class="text">What DNS records can be created to associate a custom domain name to a VM?</section>
+        <section class="answer" data-correct>CNAME record</section>
+        <section class="answer" data-correct>A record</section>
+        <section class="answer">TXT record</section>
+        <section class="description">
+            
+        </section>
+    </section>
+    
+</section>
