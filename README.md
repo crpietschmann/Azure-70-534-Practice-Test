@@ -2,7 +2,7 @@
 
 Test your knowledge of Azure with this collection of practice test questions for the Microsoft Azure [70-534](https://www.microsoft.com/learning/en-us/exam-70-534.aspx) Certification - Architecting Microsoft Azure Solutions.
 
-[Take the Test](http://crpietschmann.github.io/Azure-70-534-Practice-Test/)
+###[Take the Test](http://crpietschmann.github.io/Azure-70-534-Practice-Test/)
 
 The [jsQuizEngine](https://github.com/crpietschmann/jsQuizEngine) file format is used for the practice questions so they can be taken like an actaul quiz/test with scoring.
 
