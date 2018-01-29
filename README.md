@@ -1,3 +1,5 @@
+**RETIRED: Since the 70-534 exam has been retired, this project will no longer be updated going forward. Please subscribe to [http://BuildAzure.com](http://BuildAzure.com) for the latest on Microsoft and Azure certification news, and to hear when a practice test for 70-535 is in the works. Thanks!**
+
 # Azure 70-534 Certification Practice Test
 
 Test your knowledge of Azure with this collection of practice test questions for the Microsoft Azure [70-534](https://www.microsoft.com/learning/en-us/exam-70-534.aspx) Certification - Architecting Microsoft Azure Solutions.
